@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  height: 100%;
+}
+body {
+  background-image: linear-gradient(to bottom right, #392270, #06ff00);
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+.title {
+  margin: 30px 0 20px 0;
+  font-size: 50px;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px,
+    #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
+  color: #ffffff;
+}
+
+.description {
+  font-size: 18px;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+}
+.color-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.rectangle {
+  margin: 7px;
+  padding: 10px;
+  width: 80px;
+  background-color: transparent;
+  color: #fff;
+  text-shadow: 0 0 7px #fff;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 0 5px #fff, 0 0 5px #fff inset;
+  cursor: pointer;
+  outline: 0 !important;
+  transition: all 0.3s ease-in;
+}
+.circle {
+  margin: 25px 10px;
+  padding: 27px 0;
+  width: 80px;
+  background-color: transparent;
+  font-size: 22px;
+  color: #fff;
+  text-shadow: 0 0 7px #fff;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #fff, 0 0 10px #fff inset;
+  cursor: pointer;
+  outline: 0 !important;
+  transition: all 0.3s ease-in;
+}
+.active {
+  box-shadow: 0 0 30px #f44d9b, 0 0 2px #f44d9b inset;
+}
+
+.toy-container {
+  margin-top: 20px;
+}
+.grid-container {
+  display: inline-grid;
+  grid-gap: 1px;
+  border: 5px solid #5a236c;
+  border-radius: 2px;
+  box-shadow: 0 0 30px #392270;
+}
+.grid-container > div {
+  background-color: #fff;
+}
+.grid-10x10 {
+  grid-template-columns: repeat(10, auto);
+}
+.grid-10x10 > div {
+  height: 47px;
+  width: 47px;
+}
+.grid-20x20 {
+  grid-template-columns: repeat(20, auto);
+}
+.grid-20x20 > div {
+  height: 23px;
+  width: 23px;
+}
+.grid-30x30 {
+  grid-template-columns: repeat(30, auto);
+}
+.grid-30x30 > div {
+  height: 15px;
+  width: 15px;
+}
+
+.copyright {
+  font-size: 17px;
+  text-shadow: 0 0 7px #fff;
+}

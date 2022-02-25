@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Odin Project 3</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Etch A Sketch</h1>
+    </header>
+    <main class="main-content">
+      <div class="description">
+        <p>
+          Elija la cuadrícula y el color, luego pase el mouse para pintar.<br />
+          Para borrar la cuadrícula, simplemente presione el mismo u otro botón
+          de cuadrícula.
+        </p>
+      </div>
+      <div class="options">
+        <div class="color-button">
+          <button type="button" class="warm rectangle">Calido</button>
+          <button type="button" class="cold rectangle">Frio</button>
+        </div>
+        <div class="grid-buttons">
+          <button type="button" class="grid-10 circle">10x10</button>
+          <button type="button" class="grid-20 circle active">20x20</button>
+          <button type="button" class="grid-30 circle">30x30</button>
+        </div>
+        <div class="color-button">
+          <button type="button" class="black rectangle">Neegro</button>
+          <button type="button" class="white rectangle">Blanco</button>
+        </div>
+      </div>
+      <div class="toy-container">
+        <div class="grid-container"></div>
+      </div>
+    </main>
+    <p>Odin project &copy 2022</p>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
